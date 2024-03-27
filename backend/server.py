@@ -5,8 +5,7 @@ import os
 
 
 app = Flask(__name__)
-CORS ( app )
-
+CORS(app)
 
 def load_products():
     with open('products.json', 'r') as f:

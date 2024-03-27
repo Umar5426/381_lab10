@@ -1,7 +1,7 @@
 // src/services/apiService.js
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:5000/products';
+const BASE_URL = 'http://127.0.0.1:5000/products';
 
 // Fetches details for a single product by its ID
 export const getProductDetails = async (id) => {
